@@ -1,0 +1,6 @@
+The analysis was run using raxmlGUI 2.0 (version 2.0.16) as follows:
+Analysis: ML + rapid bootstrap
+Binary: raxmlHPC-PTHREADS-SSE3.exe version 8.2.12
+Results saved to: C:\Users\Alfar\Downloads
+RAxML was called with these arguments:
+1.) -T 2 -f a -x 955737 -p 955737 -N 100 -m GTRGAMMA -O -n primate_tree.tre -s "C:\Users\Alfar\Downloads\primate (1).phy" -w "C:\Users\Alfar\Downloads"
