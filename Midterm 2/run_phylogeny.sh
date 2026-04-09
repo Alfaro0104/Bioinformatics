@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# Make an output folder for the phylogeny results
+#Make an output folder for the phylogeny results
 mkdir -p tree_results
 
-# Run a maximum likelihood phylogenetic analysis with 100 bootstrap replicates
-# RAxML-NG is appropriate for this dataset because it is a nucleotide alignment
-# and maximum likelihood is a standard method for estimating phylogenies from DNA sequence data
+#Ran a maximum likelihood phylogenetic analysis with 100 bootstrap replicates
+#RAxML-NG is good for this data because it is a concatenated nucleotide alignment and not partitioned
 raxml-ng \
   --all \
   --msa metazoa_alignment.5k.fasta \
